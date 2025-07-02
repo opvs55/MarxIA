@@ -1,0 +1,28 @@
+/* src/index.css */
+
+/* Paleta de Cores Marxista - Sóbria, Acadêmica, Revolucionária */
+:root {
+  --background-color: #212121; /* Cinza escuro, quase carvão */
+  --window-bg-color: #373737;  /* Um cinza um pouco mais claro para a janela */
+  --header-footer-bg: #2a2a2a; /* Um tom intermediário para cabeçalho/rodapé */
+  --user-bubble-color: #004D40; /* Verde escuro e sóbrio */
+  --model-bubble-color: #4a4a4a; /* Cinza para a resposta do 'Marx' */
+  --button-color: #8C1C1C;         /* Vermelho revolucionário, sóbrio */
+  --button-hover-color: #a52a2a;    /* Vermelho um pouco mais claro no hover */
+  --text-color: #E0E0E0;         /* Texto quase branco para alto contraste */
+  --font-title: 'Libre Baskerville', serif;
+  --font-body: 'Roboto', sans-serif;
+}
+
+/* Reset básico para garantir consistência entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--background-color);
+  color: var(--text-color); 
+}

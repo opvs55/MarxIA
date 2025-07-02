@@ -1,0 +1,20 @@
+/* src/App.css */
+
+.app-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  /* Removemos o align-items: center para corrigir o "crescimento" */
+  padding-top: 5vh; /* Adiciona um respiro no topo da tela */
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+/* Regra para o layout ocupar a tela toda em dispositivos móveis */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 0;
+  }
+}
